@@ -1,0 +1,28 @@
+.app {
+    text-align: center;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+    gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .grid-cell {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .player-count {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
